@@ -9,14 +9,15 @@ import BeanieDetail from './BeanieDetail';
 
 export default function App() {
   return (
+  
     <Router>
       <div className='App'>
         <Switch>
-          <Route exact path='/beanie-babies'>
+          <Route exact path='/'>
             {/* this home page route should list all the beanies */}
             <BeaniesPage />
           </Route>
-          <Route exact path='/beanie-babies/:id'> 
+          <Route exact path='/beanie-babies/:id'>
             {/* this route should point to a particular beanie baby by id and render that specific BeanieDetail page */}
             <BeanieDetail />
           </Route>
