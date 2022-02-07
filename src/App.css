@@ -15,11 +15,12 @@ body {
 
 .beanie-baby {
   margin: 20px;
+  border: pink 1px solid;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
-/* .beanie-baby img {
-  width: 200px;
-} */
 
 .beanie-baby .beanie-img {
   width: 200px;
