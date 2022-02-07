@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders current page link', async () => {
+test('renders current page link', () => {
   render(<App />);
-  const linkElement = await screen.findByText(/current page/i);
+  const linkElement = screen.getByText(/current page/i);
   expect(linkElement).toBeInTheDocument();
 });
