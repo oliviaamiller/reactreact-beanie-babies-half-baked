@@ -9,7 +9,7 @@ export default function BeanieBaby({ beanieBaby }) {
     <Link to={`/beanie-babies/${beanieBaby.id}`}>
       <div className='beanie-baby'>
         {beanieBaby.title}
-        <img src={beanieBaby.image} />
+        <img className='beanie-img' src={beanieBaby.image} />
       </div>
     </Link>
     
