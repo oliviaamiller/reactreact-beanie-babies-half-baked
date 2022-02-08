@@ -12,6 +12,7 @@ export default function App() {
   
     <Router>
       <div className='App'>
+        <p>Welcome!</p>
         <Switch>
           <Route exact path='/'>
             {/* this home page route should list all the beanies */}
